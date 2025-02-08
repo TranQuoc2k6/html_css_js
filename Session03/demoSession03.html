@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Form trong HTML</h1>
+    <form action="http://www.mysever.vn.com" method="post">
+        <div>
+            <label for="username">Uesrname:</label>
+            <input type="text" name="uername" id="username" placeholder="Nguyễn Văn A" />
+        </div>
+
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="abcABC124$%^" />
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="abc@gmail.com" />
+        </div>
+
+        <div>
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone" placeholder="0123-456-789" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" required />
+        </div>
+
+        <div>
+            <label for="url">URL:</label>
+            <input type="search" name="URL" id="url"/>
+        </div>
+
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" name="Age" id="age" min="0" max="1000" step="1"/>
+        </div>
+
+        <div>
+            <label for="birthday">Birthday:</label>
+            <input type="date" name="Birthday" id="birthday"/>
+        </div>
+        
+        <input type="button" value="Gửi thông tin">
+        
+        <div>
+            <input type="reset">
+        </div>
+
+        <div>
+            <label for="male">Nam:</label>
+            <input type="radio" id="male" name="gender" value="male"/>
+            <label for="female">Nữ:</label>
+            <input type="radio" id="female" name="gender" value="female"/>
+        </div>
+
+        <div>
+            <label for="male">Nam:</label>
+            <input type="checkbox" id="male" name="gender" value="male"/>
+            <label for="female">Nữ:</label>
+            <input type="checkbox" id="female" name="gender" value="female"/>
+        </div>
+
+        <div>
+            <select name="Thành phố" id="city" multiple>
+                <option value="Hà Nội">Hà Nội</option>
+                <option value="HCM">HCM</option>
+                <option value="Đà Nẵng">Đà Nẵng</option>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>
