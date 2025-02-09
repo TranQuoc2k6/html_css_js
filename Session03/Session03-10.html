@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="http://mysever.vn.com" method="post">
+        <div>
+            <label for="name">Họ và tên:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;</label>
+            <input type="text" id="name" name="Họ và tên">
+        </div><br>
+        <div>
+            <label for="ngày sinh">Ngày
+                sinh:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;</label>
+            <input type="date" id="ngày sinh" name="Ngày sinh">
+        </div><br>
+        <div>
+            <label for="giới tính">Giới
+                tính:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&emsp;</label>
+            <input type="radio" id="giới tính" name="Giới tính" value="Nam">Nam
+            <input type="radio" id="giới tính" name="Giới tính" value="Nữ">Nữ
+        </div><br>
+        <div>
+            <label for="phone">Số điện thoại:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+            <input type="tel" id="phone" name="Số điện thoại" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" required>
+        </div><br>
+        <div>
+            <label
+                for="email">Email:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+            <input type="email" id="email" name="Email">
+        </div><br>
+        <div>
+            <label for="tên công ty">Tên công
+                ty:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;</label>
+            <input type="text" id="tên công ty" name="Tên công ty">
+        </div><br>
+        <div>
+            <label for="vai trò công ty">Vai trò công
+                ty:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;</label>
+            <select name="Vai trò công ty" id="vai trò công ty">
+                <option value="Giám đốc điều hành (CEO)">Giám đốc điều hành (CEO)</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="quy mô công ty">Quy mô công
+                ty:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;</label>
+            <select name="Quy mô công ty" id="quy mô công ty">
+                <option value="Doanh nghiệp nhỏ">Doanh nghiệp nhỏ</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="ngành nghề công ty">Ngành nghề công ty:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+            <input type="text" id="ngành nghề công ty" name="Ngành nghề công ty">
+        </div><br>
+        <div>
+            <label for="lý do tham gia clb">Lý do tham gia câu lạc bộ:&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;</label>
+            <textarea name="Lý do tham gia câu lạc bộ" id="lý do tham gia clb"></textarea>
+        </div><br>
+        <div>
+            <label for="kinh doanh lão nghiệp">Kinh doanh lão nghiệp:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+            <textarea name="Kinh doanh lão nghiệp" id="kinh doanh lão nghiệp"></textarea>
+        </div><br>
+        <div>
+            <label for="mục tiêu khi tham gia clb">Mục tiêu khi tham gia câu lạc bộ:&emsp;&emsp;</label>
+            <textarea name="Mục tiêu khi tham gia câu lạc bộ" id="mục tiêu khi tham gia clb"></textarea>
+        </div><br>
+        <div>
+            <label for="chương trình sk muốn tham gia">Chương trình sự kiện muốn tham gia:</label>
+            <input type="checkbox" id="chương trình sk muốn tham gia" name="Chương trình sự kiện muốn tham gia"
+                value="Networking">Networking
+            <input type="checkbox" id="chương trình sk muốn tham gia" name="Chương trình sự kiện muốn tham gia"
+                value="Workshops">Workshops
+            <input type="checkbox" id="chương trình sk muốn tham gia" name="Chương trình sự kiện muốn tham gia"
+                value="Hội thảo">Hội thảo
+        </div><br>
+        <div>
+            <label for="đăng kí nhận bản tin">Đăng kí nhận bản tin:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;</label>
+            <input type="checkbox" id="đăng kí nhận bản tin" name="Đăng kí nhận bản tin" value="Có">Có
+        </div><br>
+        <div>
+            <button>Đăng kí hội viên</button>
+        </div>
+    </form>
+</body>
+
+</html>
