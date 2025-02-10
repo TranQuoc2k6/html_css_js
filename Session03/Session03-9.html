@@ -9,67 +9,81 @@
 
 <body>
     <form action="http://mysever.vn.com" method="post">
-        <div>
-            <label for="name">Họ và tên:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;</label>
-            <input type="text" id="name" name="Họ và tên">
-        </div><br>
-        <div>
-            <label for="ngày sinh">Ngày sinh:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;</label>
-            <input type="date" id="ngày sinh" name="Ngày sinh">
-        </div><br>
-        <div>
-            <label for="giới tính">Giới tính:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;</label>
-            <input type="radio" id="giới tính" name="Giới tính" value="Nam">Nam
-            <input type="radio" id="giới tính" name="Giới tính" value="Nữ">Nữ
-        </div><br>
-        <div>
-            <label for="phone">Số điện thoại:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
-            <input type="tel" id="phone" name="Số điện thoại" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" required>
-        </div><br>
-        <div>
-            <label for="email">Email:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
-            <input type="email" id="email" name="Email">
-        </div><br>
-        <div>
-            <label for="địa chỉ">Địa chỉ:&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
-            <textarea name="Địa chỉ" id="địa chỉ" cols="25"></textarea>
-        </div><br>
-        <div>
-            <label for="vai trò nhóm">Vai trò nhóm:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;</label>
-            <select name="Vai trò nhóm" id="vai trò nhóm">
-                <option value="Thành viên">Thành viên</option>
-            </select>
-        </div><br>
-        <div>
-            <label for="sở thích">Sở thích:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
-            <input type="text" id="sở thích" name="Sở thích">
-        </div><br>
-        <div>
-            <label for="kỹ năng">Kỹ năng:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
-            <textarea name="Kỹ năng" id="kỹ năng"></textarea>
-        </div><br>
-        <div>
-            <label for="thời gian rảnh">Thời gian rảnh:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
-            <input type="checkbox" id="thời gian rảnh" name="Thời gian rảnh" value="Sáng">Sáng
-            <input type="checkbox" id="thời gian rảnh" name="Thời gian rảnh" value="Chiều">Chiều
-            <input type="checkbox" id="thời gian rảnh" name="Thời gian rảnh" value="Tối">Tối
-        </div><br>
-        <div>
-            <label for="màu yêu thích">Màu yêu thích:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;</label>
-            <input type="color" id="màu yêu thích" name="Màu yêu thích">
-        </div><br>
-        <div>
-            <label for="đăng kí nhận bản tin">Đăng kí nhận bản tin:&emsp;&emsp;&emsp;&ensp;</label>
-            <input type="checkbox" id="đăng kí nhận bản tin" name="Đăng kí nhận bản tin" value="Có">Có
-        </div><br>
-        <div>
-            <label for="nhận thông báo qua email">Nhận thông báo qua email:&emsp;&nbsp;</label>
-            <input type="radio" id="nhận thông báo qua email" name="Nhận thông báo qua email" value="Email">Email
-            <input type="radio" id="nhận thông báo qua email" name="Nhận thông báo qua email" value="SMS">SMS
-        </div><br>
+        <table>
+            <tr>
+                <td><label for="name">Họ và tên:</label></td>
+                <td><input type="text" id="name" name="Họ và tên"></td>
+            </tr>
+            <tr>
+                <td><label for="ngày sinh">Ngày sinh:</label></td>
+                <td><input type="date" id="ngày sinh" name="Ngày sinh"></td>
+            </tr>
+            <tr>
+                <td><label for="giới tính">Giới tính:</label></td>
+                <td>
+                    <input type="radio" id="giới tính" name="Giới tính" value="Nam">Nam
+                    <input type="radio" id="giới tính" name="Giới tính" value="Nữ">Nữ
+                </td>
+            </tr>
+            <tr>
+                <td><label for="phone">Số điện thoại:</label></td>
+                <td><input type="tel" id="phone" name="Số điện thoại" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="Email"></td>
+            </tr>
+            <tr>
+                <td><label for="địa chỉ">Địa chỉ:</label></td>
+                <td><textarea name="Địa chỉ" id="địa chỉ" cols="25"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="vai trò nhóm">Vai trò nhóm:</label></td>
+                <td>
+                    <select name="Vai trò nhóm" id="vai trò nhóm">
+                        <option value="Thành viên">Thành viên</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="sở thích">Sở thích:</label></td>
+                <td><input type="text" id="sở thích" name="Sở thích"></td>
+            </tr>
+            <tr>
+                <td><label for="kỹ năng">Kỹ năng:</label></td>
+                <td><textarea name="Kỹ năng" id="kỹ năng"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="thời gian rảnh">Thời gian rảnh:</label></td>
+                <td>
+                    <input type="checkbox" id="thời gian rảnh" name="Thời gian rảnh" value="Sáng">Sáng
+                    <input type="checkbox" id="thời gian rảnh" name="Thời gian rảnh" value="Chiều">Chiều
+                    <input type="checkbox" id="thời gian rảnh" name="Thời gian rảnh" value="Tối">Tối
+                </td>
+            </tr>
+            <tr>
+                <td><label for="màu yêu thích">Màu yêu thích:</label></td>
+                <td><input type="color" id="màu yêu thích" name="Màu yêu thích"></td>
+            </tr>
+            <tr>
+                <td><label for="đăng kí nhận bản tin">Đăng kí nhận bản tin:</label></td>
+                <td><input type="checkbox" id="đăng kí nhận bản tin" name="Đăng kí nhận bản tin" value="Có">Có</td>
+            </tr>
+            <tr>
+                <td><label for="nhận thông báo qua email">Nhận thông báo qua email:</label></td>
+                <td>
+                    <input type="radio" id="nhận thông báo qua email" name="Nhận thông báo qua email" value="Email">Email
+                    <input type="radio" id="nhận thông báo qua email" name="Nhận thông báo qua email" value="SMS">SMS
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
         <div>
             <button>Đăng ký thành viên</button>
-        </div><br>
+        </div>
     </form>
 </body>
 
