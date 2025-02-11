@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+}
+
+.font {
+    color: white;
+}
+
+.font1 {
+    font-size: 15px;
+    color: green;
+    text-decoration: underline dotted;
+}

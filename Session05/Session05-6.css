@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+code {
+    color: red;
+    font-size: 15px;
+}
+
+table tr td {
+    border: solid;
+    width: 500px;
+}

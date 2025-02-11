@@ -1,0 +1,9 @@
+body {
+    font-family:'calibri';
+    text-align: center;
+}
+
+.color {
+    background-color: rgb(88, 85, 85);
+    color: white;
+}

@@ -1,0 +1,58 @@
+/* CASCADING trong CSS*/
+ul {
+    background-color: aquamarine;
+    color: black;
+}
+
+ul {
+    background-color: bisque;
+    color: aqua;
+}
+
+h1 {
+    background-color: blue;
+    color: aliceblue;
+}
+
+div {
+    background-color: black;
+    color: pink;
+}
+
+li {
+    background-color: yellow;
+}
+
+*{
+    font-size: 50px ;
+}
+
+#second-li {
+    background-color: pink;
+}
+.second-li {
+    background-color: chartreuse;
+}
+
+.demo-class {
+    background-color: red;
+}
+
+/*
+GỈA SỬ:
+Tạo kiểu dành cho căn bản qua các thuộc tính CSS
+font-size: 20px
+font-weight: bold;
+text-decocationL: underline
+*/
+
+.text-transform {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.first-content p {
+    background-color: chocolate;
+}
+
