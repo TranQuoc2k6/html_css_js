@@ -1,0 +1,58 @@
+
+body {
+    background-color: rgb(209, 209, 209);
+}
+
+* {
+    font-family: 'Open sans';
+    font-size: 15px;
+    color: rgb(26, 25, 25);
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px; 
+    color: rgb(29, 42, 35);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+} 
+
+th, td {
+    border: 1px solid rgb(182, 182, 182);
+    padding: 10px;
+}
+
+th {
+    background-color: rgb(54, 99, 246);
+    color: white;
+}
+
+.font1 {
+    background-color: rgb(6, 204, 6);
+    color: white;
+    border: solid rgb(209, 209, 209);
+    padding: 4px;
+}
+
+.font2 {
+    background-color: yellow;
+    border: solid rgb(209, 209, 209);
+    padding: 4px;
+}
+
+.font3 {
+    background-color: rgb(199, 26, 26);
+    color: white;
+    border: solid rgb(209, 209, 209);
+    padding: 4px;
+}
+
+.dong2 {
+    background-color: rgb(254, 254, 254);
+}
+
