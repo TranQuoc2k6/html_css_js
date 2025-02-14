@@ -1,0 +1,87 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(24, 23, 23);
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.box-moder {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    padding-left: 30px;
+    padding-right: 70px;
+    border: 20px solid black;
+    border-right: 10px solid rgb(141, 83, 83);
+    border-left: 10px solid rgb(141, 83, 83);
+    margin: 50px;
+    
+    box-sizing:border-box;
+}
+
+
+
+.relative-section {
+    margin-top: 100px;
+}
+.relative-section h3 {
+    margin-bottom: 50px;
+}
+.relative-section span {
+    padding: 40px;
+    border: 10px solid rgb(38, 38, 37);
+    background-color: yellow;
+    margin-right: 20px;
+}
+
+.absolute-section {
+    margin-top: 100px;
+}
+.absolute-section h3 {
+    margin-bottom: 50px;
+}
+.absolute-section span {
+    padding: 40px;
+    border: 10px solid rgb(38, 38, 37);
+    background-color: orange;
+    margin-right: 20px;
+}
+
+section {
+    margin-left: 20px;
+}
+
+.relative-section span:nth-of-type(2) {
+    position: relative;
+    /* top | bottom (Theo chiều dọc)
+    left | right (Theo chiều ngang) */
+    top: 100px;
+    left: 100px;
+}
+
+.absolute-section span:nth-of-type(2) {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.block {
+    width: 170px;
+    height: 240px;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 40px;
+    background-color: chocolate;
+    font-size: 10px;
+    position: relative;
+}
+
+.block span {
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: -6px;
+    left: 150px;
+}

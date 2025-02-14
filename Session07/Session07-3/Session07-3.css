@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(26, 26, 26);
+    margin-right: 830px;
+    padding: 0;
+}
+
+h1 img {
+    width: 40px;
+    border-radius: 100px;
+}
+
+div img {
+    width: 650px;
+    height: 450px;
+}
+
+h3 {
+    color: rgb(26, 26, 87);
+}
+
+p {
+    font-size: 17px;
+    line-height: 23px;
+}

@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(230, 230, 230);
+    color: rgb(19, 19, 19);
+    padding: 150px;
+    margin: 100px;
+    margin-top: 100px;
+    padding-left: 250px;
+}
+
+
+
+
+.soft-skills {
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    height: 100px;  
+    width: 180px;
+    font-size: 13px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid rgb(207, 207, 207);
+}
+.soft-skills span {
+    text-align: center;
+    padding: 45px;
+}
+.soft-skills p {
+    font-size: 10px;
+    width: 150px;
+    margin-left: 15px;
+    margin-top: -5px;
+    line-height: 16px;
+    color: rgb(13, 13, 130);
+}
+.soft-skills h3 {
+    color: rgb(215, 34, 34);
+}
+
+
+
+
+
+.work {
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    height: 100px;
+    width: 180px;
+    font-size: 13px;
+    margin-left: -5px;
+    text-align: center;
+    border: 1px solid rgb(207, 207, 207);
+}
+.work span{
+    text-align: center;
+    padding: 30px;
+}
+.work p {
+    font-size: 10px;
+    width: 150px;
+    margin-left: 15px;
+    margin-top: -5px;
+    line-height: 16px;
+    color: rgb(13, 13, 130);
+}
+.work h3 {
+    color: rgb(215, 34, 34);
+}
+
+
+
+
+.profile {
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    height: 100px;
+    width: 180px;
+    font-size: 13px;
+    margin-left: 5px;
+    text-align: center;
+    border: 1px solid rgb(207, 207, 207);
+}
+.profile span{
+    text-align: center;
+    padding: 30px;
+}
+.profile p {
+    font-size: 10px;
+    width: 150px;
+    margin-left: 15px;
+    margin-top: -5px;
+    line-height: 16px;
+    color: rgb(13, 13, 130);
+}
+.profile h3 {
+    color: rgb(215, 34, 34);
+}
+
+
+
+
+.commit {
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    height: 100px;
+    width: 180px;
+    font-size: 13px;
+    margin-left: 5px;
+    text-align: center;
+    border: 1px solid rgb(207, 207, 207);
+}
+.commit span{
+    text-align: center;
+    padding: 50px;
+}
+.commit p {
+    font-size: 10px;
+    width: 160px;
+    margin-left: 15px;
+    margin-top: -5px;
+    line-height: 16px;
+    color: rgb(13, 13, 130);
+}
+.commit h3 {
+    color: rgb(215, 34, 34);
+}

@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.header {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 3px solid #ff6600;
+}
+.image-container {
+    position: relative;
+}
+.image-container img {
+    width: 100%;
+    display: block;
+}
+.overlay-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+.article-list {
+    padding: 10px;
+}
+.article-list p {
+    font-weight: bold;
+    margin: 10px 0;
+}
