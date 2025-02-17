@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    color: rgb(22, 22, 22);
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+section {
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 200px;
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 5px;
+}
+
+h2 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(215, 215, 215);
+    padding-left: 15px;
+}
+
+h2 span {
+    padding-left: 260px;
+    color: rgb(130, 130, 130);
+}
+
+.recipient {
+    padding-left: 15px;
+    line-height: 35px;
+}
+
+#recipient {
+    padding-right: 400px;
+    padding-top: 10px;
+    border-radius: 7px;
+}
+
+.message {
+    padding: 15px;
+    line-height: 35px;
+    border-bottom: 1px solid rgb(215, 215, 215);
+}
+
+#message {
+    padding-right: 400px;
+    padding-bottom: 20px; 
+    border-radius: 7px;
+}
+
+footer {
+    padding: 10px;
+    padding-left: 425px;
+}
+
+footer .close {
+    color: rgb(255, 255, 255);
+    background-color: rgb(132, 132, 132);
+    border: none;
+    border-radius: 3px;
+    padding: 7px;
+}
+
+footer .send-message {
+    color: white;
+    background-color:hsl(215.75deg 98.36% 52.16%);
+    border: none;
+    border-radius: 3px;
+    padding: 7px;
+} 
