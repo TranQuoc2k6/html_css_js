@@ -1,0 +1,33 @@
+* {
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 700px;
+    background-color: rgb(205, 205, 205);
+    border: 1px solid black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container .child{
+    width: 20%;
+    padding : 12px;
+    background-color: rgba(9, 175, 9, 0.793);
+    margin: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
