@@ -5,7 +5,7 @@
 }
 
 .containal {
-    width: 500px;
+    width: 510px;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -20,12 +20,12 @@
     display: flex;
     justify-content: center;
     margin-top: 10px;
-    padding-bottom: 55px;
-    padding-top: 10px;
+    padding-bottom: 45px;
+    padding-top: 20px;
 }
 
 .small {
-    width: 250px;
+    width: 234px;
     display: flex;
     justify-content: space-between;
     align-items: center;
