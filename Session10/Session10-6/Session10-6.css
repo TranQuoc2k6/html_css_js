@@ -1,0 +1,85 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+
+.content {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.sportsfoundationpune.org/images/illustration/slider-1.png');
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: flex-end;
+    gap: 15px;
+    position: relative;
+}
+
+p {
+    font-size: 20px;
+    width: 650px;
+}
+
+h2 {
+    width: 800px;
+    font-size: 36px;
+
+}
+
+.content button {
+    background-color: rgba(0, 0, 0, 0);
+    width: 100px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    position: absolute;
+    left: 50px;
+    top: 30px;
+}
+
+main {
+    background-color: rgb(241 243 247);
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px;
+    font-size: 30px;
+    gap: 50px;
+    
+}
+
+.icon {
+    background-color: rgb(186 184 184);
+    padding: 10px;
+    padding-inline: 20px;
+    border-radius: 4px;
+}
+
+.icon1 {
+    background-color: rgb(36, 36, 36);
+    padding: 10px;
+    padding-inline: 20px;
+    border-radius: 4px;
+}
+
+.number{
+    padding: 20px;
+    color: rgb(161, 157, 157);
+}
+
+.number1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 29, 29);
+    border-radius: 100px;
+    padding: 20px;
+}
+
+body {
+    padding: 20px;
+}

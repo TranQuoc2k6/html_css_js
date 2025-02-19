@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.service-container .container:nth-of-type(1) .col {
+    background-color: crimson;
+}
+
+.service-container .row {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.service-container .row .col{
+    background-color: rgb(255, 174, 190);
+    width: 33.33%;
+}
+
+.service-container .container {
+    margin-bottom: 20px;
+}
+
+.post-container {
+    background-image: url("https://s3.centours.vn/centours/file-gallery/Thuy-sy-centours.jpg");
+    height: 250px;
+    background-size: cover;
+    background-position: center center ;
+    position: relative;
+}
+
+.post-container .title {
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+}

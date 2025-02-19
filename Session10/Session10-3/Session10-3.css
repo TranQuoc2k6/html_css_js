@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.content {
+    width: 500px;
+    background-color: rgb(244, 244, 244);
+    padding: 5px;
+    position: relative;
+}
+
+.content .intro img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.content .intro button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: rgb(237, 237, 237);   
+    background-color: rgba(97, 97, 97, 0);
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.item .profile img {
+    width: 9%;
+    border-radius: 100px;
+    margin-right: 20px;
+}
+
+.item .profile {
+    display: flex;
+    align-items: center;
+}
+
+.item {
+    padding: 30px 0 30px 0;
+}
+
+.item .font {
+    color: rgb(112, 112, 112);
+    margin: 20px 0 20px 0;
+}
+
