@@ -1,0 +1,11 @@
+.love {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+.love option:focus {
+    background-color: blue !important;
+    color: white;
+}

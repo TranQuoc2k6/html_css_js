@@ -1,0 +1,23 @@
+.container  {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.vip {
+    padding: 0 70px;
+}
+
+.vip a {
+    width: 220%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
