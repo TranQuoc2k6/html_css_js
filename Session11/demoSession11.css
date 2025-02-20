@@ -1,0 +1,106 @@
+/* h1 {
+    background-color: red;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        background-color: blue;
+    }
+}
+/* Destop - Máy tính để bàn */
+/* h3 {
+    background-color: chocolate;
+} */
+/* Laptop - Máy tính xách tay */
+/* @media screen and (max-width: 1200px) {
+    h3 {
+        background-color: rgb(53, 249, 39);
+    }
+} */
+
+/* Tablet ngang - Máy tính bảng */
+/* @media screen and (max-width: 1024px) {
+    h3 {
+        background-color: pink;
+    }
+} */
+
+/* Tablet dọc - Máy tính bảng */
+/* @media screen and (max-width: 768px) {
+    h3 {
+        background-color: rgb(236, 191, 10);
+    }
+} */
+
+/* Mobile - Điện thoại di động */
+/* @media screen and (max-width: 480px) {
+    h3 {
+        background-color: rgb(24, 230, 189);
+    }
+} */
+
+
+/* Mobilet - Điện thoại */
+h1 {
+    background-color: red;
+}
+
+/* Tablet dọc - Máy tính bảng */
+@media screen and (min-width: 768px){
+    h1 {
+        background-color: rgb(20, 225, 102);
+    }
+}
+
+/* Tablet ngang - Máy tính bảng */
+@media screen and (min-width: 1024px){
+    h1 {
+        background-color: rgb(63, 52, 225);
+    }
+}
+
+/* Laptop - Máy tính xách tay */
+@media screen and (min-width: 1200px){
+    h1 {
+        background-color: rgb(163, 44, 64);
+    }
+}
+
+.container {
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.child {
+    background-color: hotpink;
+    width: 150px;
+    height: 150px;
+    color: white;
+    line-height: 150px;
+    text-align: center;
+    font-size: 20px;
+    width: 25%;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .child  {
+        width: calc(50% - 20px);
+        flex-grow: 1;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .child {
+        width: 100%;
+    }
+}
