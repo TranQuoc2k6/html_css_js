@@ -86,7 +86,7 @@ header .hello {
     line-height: 56px;
 }
 
-header .center1 {
+header .content1 {
     font-size: 16px;
     padding-top: 32px;
 } 
@@ -141,3 +141,79 @@ header .icon {
     font-size: 20px;
 }
 
+
+.experience {
+    background-color: black;
+    padding: 60px 136px;
+    color: white;
+
+}
+
+.experience .my-experience {
+    font-size: 48px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.experience .content2 {
+    width: 1216px;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 60px;
+    align-items: center;
+}
+
+.experience .content2-1 {
+    border: 1px solid #71717A;
+    border-radius: 10px;
+    padding: 30px 27px;
+}
+
+.experience .content2-1 .google {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.experience .content2-1 .google-child {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.experience .content2-1 .google-child p {
+    font-size: 24px;
+}
+
+.experience .content2-1 .google .year {
+    font-size: 16px;
+}
+
+.experience .content2-1 .paragrap {
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 28px;
+}
+
+footer {
+    padding: 24px 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+footer .end-left {
+    display: flex;
+    align-items: center;
+}
+
+footer .end-right {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
